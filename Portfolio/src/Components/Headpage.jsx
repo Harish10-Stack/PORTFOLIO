@@ -82,10 +82,10 @@ const headpage = () => {
         <div class="icons">
           <img src="/icons8-html5-48.png" alt="html" />
           <img src="/icons8-css3-48.png" alt="css" />
-          <img src="/public/icons8-javascript-50.png" alt="js" />
-          <img src="/public/icons8-express-js-50.png" alt="node" />
-          <img src="/public/icons8-node-js-32.png" alt="express" />
-          <img src="/public/icons8-github-logo-50.png" alt="git" />
+          <img src="/icons8-javascript-50.png" alt="js" />
+          <img src="/icons8-express-js-50.png" alt="node" />
+          <img src="/icons8-node-js-32.png" alt="express" />
+          <img src="/icons8-github-logo-50.png" alt="git" />
         </div>
 
         <div class="services">
@@ -192,3 +192,4 @@ const headpage = () => {
 };
 
 export default headpage;
+
