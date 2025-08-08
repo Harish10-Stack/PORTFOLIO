@@ -8,12 +8,16 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  padding-top: 70px; /* space for navbar */
+  padding-top: 70px; 
   color: #263238;
   background-color: #fff;
 }
 
 /* ✅ NAVBAR CONTAINER */
+body {
+  padding-top: 80px;
+}
+
 .container {
   position: fixed;
   top: 0;
@@ -29,6 +33,7 @@ body {
   opacity: 0;
   transform: translateY(-30px);
   animation: slideDownFade 1s ease forwards;
+  flex-wrap: wrap;
 }
 
 @keyframes slideDownFade {
@@ -94,6 +99,44 @@ body {
   color: #F5C729;
   border-bottom: 2px solid #F5C729;
 }
+
+/* ✅ HAMBURGER BUTTON */
+.hamburger {
+  display: none;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+/* ✅ MOBILE RESPONSIVE */
+@media (max-width: 768px) {
+  body {
+    padding-top: 220px;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+    width: 100%;
+    display: none; 
+  }
+
+  .nav-links.show {
+    display: flex; 
+  }
+
+  .nav-links a {
+    padding: 0.5rem 0;
+  }
+}
+
 
 /* ✅ HERO HEADER */
 .header {
@@ -556,4 +599,5 @@ button:hover {
     font-size: 14px;
   }
 }
+
 
