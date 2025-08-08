@@ -8,6 +8,7 @@ const headpage = () => {
         <h1>
           <span class="h1">HARISH</span> K
         </h1>
+        <button class="hamburger" id="hamburger">&#9776;</button>
         <ul class="nav-links">
           <li>
             <a href="">INTRO</a>
@@ -192,4 +193,5 @@ const headpage = () => {
 };
 
 export default headpage;
+
 
